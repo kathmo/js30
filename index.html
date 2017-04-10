@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drum Kit</title>
+    <meta name="description" content="Drum Kit">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body>
+    <div class="keys-container">
+
+      <!-- keys A S D F G -->
+      <div class="key" data-key="KeyA">
+        <kbd>a</kbd>
+        <div class="sound">hi-hat open</div>
+      </div>
+      <div class="key" data-key="KeyS">
+        <kbd>s</kbd>
+        <div class="sound">hi-hat closed</div>
+      </div>
+      <div class="key" data-key="KeyD">
+        <kbd>d</kbd>
+        <div class="sound">snare 1</div>
+      </div>
+      <div class="key" data-key="KeyF">
+        <kbd>f</kbd>
+        <div class="sound">snare 2</div>
+      </div>
+      <div class="key" data-key="KeyG">
+        <kbd>g</kbd>
+        <div class="sound">kick</div>
+      </div>
+
+      <!-- keys H J K L ; -->
+      <div class="key" data-key="KeyH">
+        <kbd>h</kbd>
+        <div class="sound">island drum</div>
+      </div>
+      <div class="key" data-key="KeyJ">
+        <kbd>j</kbd>
+        <div class="sound">wood block</div>
+      </div>
+      <div class="key" data-key="KeyK">
+        <kbd>k</kbd>
+        <div class="sound">ride</div>
+      </div>
+      <div class="key" data-key="KeyL">
+        <kbd>l</kbd>
+        <div class="sound">shaker</div>
+      </div>
+      <div class="key" data-key="Semicolon">
+        <kbd>;</kbd>
+        <div class="sound">clap</div>
+      </div>
+    </div>
+
+    <!-- audio for A S D F G -->
+    <audio data-key="KeyA" src="assets/sounds/hi-hat-open.ogg"></audio>
+    <audio data-key="KeyS" src="assets/sounds/hi-hat-closed.ogg"></audio>
+    <audio data-key="KeyD" src="assets/sounds/snare-1.ogg"></audio>
+    <audio data-key="KeyF" src="assets/sounds/snare-2.ogg"></audio>
+    <audio data-key="KeyG" src="assets/sounds/kick.ogg"></audio>
+
+    <!-- audio for H J K L ; -->
+    <audio data-key="KeyH" src="assets/sounds/pacific-island-drum.ogg"></audio>
+    <audio data-key="KeyJ" src="assets/sounds/wood-block.ogg"></audio>
+    <audio data-key="KeyK" src="assets/sounds/ride.ogg"></audio>
+    <audio data-key="KeyL" src="assets/sounds/shaker.ogg"></audio>
+    <audio data-key="Semicolon" src="assets/sounds/clap.ogg"></audio>
+
+    <!-- scripts -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

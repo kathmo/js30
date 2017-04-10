@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #0f0f0f;
+}
+
+/* flex container */
+.keys-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* flex item and container */
+.key {
+  /* flex item properties */
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 5.3rem;
+  height: 8.4rem;
+  /* flex container properties */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* other properties */
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  border: .2rem solid blue;
+  border-radius: .5rem;
+  margin: .8rem;
+  background: rgba(15, 15, 255, .25);
+}
+
+kbd {
+  flex: 1;
+  font-family: sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  margin-bottom: .4rem;
+}
+
+.sound {
+  flex: 1;
+  max-width: 4.5rem;
+  font-size: .75rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .08rem;
+  color: rgba(255, 255, 255, .75);
+}

@@ -34,6 +34,7 @@ body {
   margin: .8rem;
   background: rgba(15, 15, 255, .25);
   box-shadow: 0 .4rem 0 rgba(15, 15, 255, .75);
+  transition: all .06s ease;
 }
 
 .playing {

@@ -29,12 +29,84 @@ body {
   font-size: 1.5rem;
   text-align: center;
   color: white;
-  border: .2rem solid #0e0ec2;
+  border: .2rem solid rgba(50, 15, 245, .85);
   border-radius: .5rem;
   margin: .8rem;
-  background: rgba(15, 15, 255, .25);
-  box-shadow: 0 .4rem 0 rgba(15, 15, 255, .75);
+  background: rgba(50, 15, 245, .25);
+  box-shadow: 0 .4rem 0 rgba(50, 15, 245, .85);
   transition: all .06s ease;
+}
+
+.playing {
+  background: rgba(50, 15, 245, .85);
+  box-shadow: none;
+  transform: translateY(.4rem);
+}
+
+.hi-hat {
+  border: .2rem solid rgba(255, 15, 15, .85);
+  background: rgba(255, 15, 15, .25);
+  box-shadow: 0 .4rem 0 rgba(255, 15, 15, .85);
+}
+
+.playing-hi-hat {
+  background: rgba(255, 15, 15, .85);
+  box-shadow: none;
+}
+
+.snare {
+  border: .2rem solid rgba(255, 128, 15, .85);
+  background: rgba(255, 128, 15, .25);
+  box-shadow: 0 .4rem 0 rgba(255, 128, 15, .85);
+}
+
+.playing-snare {
+  background: rgba(255, 128, 15, .85);
+  box-shadow: none;
+}
+
+.kick {
+  border: .2rem solid rgba(255, 255, 15, .85);
+  background: rgba(255, 255, 15, .25);
+  box-shadow: 0 .4rem 0 rgba(255, 255, 15, .85);
+}
+
+.playing-kick {
+  background: rgba(255, 255, 15, .85);
+  box-shadow: none;
+}
+
+.ride {
+  border: .2rem solid rgba(15, 255, 15, .85);
+  background: rgba(15, 255, 15, .25);
+  box-shadow: 0 .4rem 0 rgba(15, 255, 15, .85);
+}
+
+.playing-ride {
+  background: rgba(15, 255, 15, .85);
+  box-shadow: none;
+}
+
+.accessory {
+  border: .2rem solid rgba(15, 128, 255, .85);
+  background: rgba(15, 128, 255, .25);
+  box-shadow: 0 .4rem 0 rgba(15, 128, 255, .85);
+}
+
+.playing-accessory {
+  background: rgba(15, 128, 255, .85);
+  box-shadow: none;
+}
+
+.clap {
+  border: .2rem solid rgba(15, 15, 255, .85);
+  background: rgba(15, 15, 255, .25);
+  box-shadow: 0 .4rem 0 rgba(15, 15, 255, .85);
+}
+
+.playing-clap {
+  background: rgba(15, 15, 255, .85);
+  box-shadow: none;
 }
 
 .placeholder {
@@ -43,12 +115,6 @@ body {
   flex-basis: 2.65rem; /* half of basis for regular keys */
   height: 8.4rem;
   background: rgba(15, 15, 255, .15);
-}
-
-.playing {
-  background: rgba(15, 15, 255, .75);
-  box-shadow: none;
-  transform: translateY(.4rem);
 }
 
 kbd {
@@ -67,5 +133,5 @@ kbd {
   line-height: 1.1rem;
   text-transform: uppercase;
   letter-spacing: .08rem;
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, .85);
 }

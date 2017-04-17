@@ -29,35 +29,36 @@ body {
   font-size: 1.5rem;
   text-align: center;
   color: white;
-  border: .2rem solid #2d0fd2;
+  border: .2rem solid;
+  border-color: #2d0fd2;
   border-radius: .5rem;
   margin: .8rem;
   background: rgba(50, 15, 245, .25);
-  box-shadow: 0 .4rem 0 #2d0fd2;
-  transition: all .06s ease;
+  transition: all .07s ease;
 }
 
-.playing {
+.default {
+  box-shadow: 0 .4rem #2d0fd2;
+}
+
+.playing-default {
   background: rgba(50, 15, 245, .85);
-  box-shadow: none;
-  transform: translateY(.4rem);
 }
 
 .hi-hat {
-  border: .2rem solid #db0202;
+  border-color: #db0202;
   background: rgba(255, 15, 15, .25);
-  box-shadow: 0 .4rem 0 #db0202;
+  box-shadow: 0 .4rem #db0202;
 }
 
 .playing-hi-hat {
   background: rgba(255, 15, 15, .85);
-  box-shadow: none;
 }
 
 .snare {
-  border: .2rem solid #db6f02;
+  border-color: #db6f02;
   background: rgba(255, 128, 15, .25);
-  box-shadow: 0 .4rem 0 #db6f02;
+  box-shadow: 0 .4rem #db6f02;
 }
 
 .playing-snare {
@@ -66,47 +67,48 @@ body {
 }
 
 .kick {
-  border: .2rem solid #dbdb02;
+  border-color: #dbdb02;
   background: rgba(255, 255, 15, .25);
-  box-shadow: 0 .4rem 0 #dbdb02;
+  box-shadow: 0 .4rem #dbdb02;
 }
 
 .playing-kick {
   background: rgba(255, 255, 15, .85);
-  box-shadow: none;
 }
 
 .ride {
-  border: .2rem solid #02db02;
+  border-color: #02db02;
   background: rgba(15, 255, 15, .25);
-  box-shadow: 0 .4rem 0 #02db02;
+  box-shadow: 0 .4rem #02db02;
 }
 
 .playing-ride {
   background: rgba(15, 255, 15, .85);
-  box-shadow: none;
 }
 
 .accessory {
-  border: .2rem solid #026fdb;
+  border-color: #026fdb;
   background: rgba(15, 128, 255, .25);
-  box-shadow: 0 .4rem 0 #026fdb;
+  box-shadow: 0 .4rem #026fdb;
 }
 
 .playing-accessory {
   background: rgba(15, 128, 255, .85);
-  box-shadow: none;
 }
 
 .clap {
-  border: .2rem solid #0202db;
+  border-color: #0202db;
   background: rgba(15, 15, 255, .25);
-  box-shadow: 0 .4rem 0 #0202db;
+  box-shadow: 0 .4rem #0202db;
 }
 
 .playing-clap {
   background: rgba(15, 15, 255, .85);
+}
+
+.playing {
   box-shadow: none;
+  transform: translateY(.4rem);
 }
 
 .placeholder {

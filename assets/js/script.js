@@ -26,6 +26,7 @@ function playSound(e) {
 
 function removeEffect(e) {
     const key = document.querySelector(`.key[data-key="${e.code}"]`);
+    // removes the "playing-..." and "playing" classes added by the playSound function
     key.classList.remove(key.classList.item(2), key.classList.item(3));
 }
 

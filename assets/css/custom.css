@@ -113,7 +113,7 @@ body {
 .placeholder {
   flex-grow: 1;
   flex-shrink: 0;
-  flex-basis: 2.65rem; /* half of basis for regular keys */
+  flex-basis: 2.65rem; /* half of basis (width) of regular keys to offset them like bricks */
   height: 8.4rem;
 }
 

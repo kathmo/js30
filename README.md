@@ -1,5 +1,7 @@
 # drum-kit
-A drum kit for the computer keyboard. Tap on keyboard keys to play percussion sounds.
+A drum kit for the computer keyboard. Tap on computer keyboard to play percussion sounds.
+
+Project live at [https://kathmo.github.io/drum-kit/](https://kathmo.github.io/drum-kit/)
 
 ## Why
 

@@ -29,11 +29,11 @@ body {
   font-size: 1.5rem;
   text-align: center;
   color: white;
-  border: .2rem solid rgba(50, 15, 245, .85);
+  border: .2rem solid #2d0fd2;
   border-radius: .5rem;
   margin: .8rem;
   background: rgba(50, 15, 245, .25);
-  box-shadow: 0 .4rem 0 rgba(50, 15, 245, .85);
+  box-shadow: 0 .4rem 0 #2d0fd2;
   transition: all .06s ease;
 }
 
@@ -44,9 +44,9 @@ body {
 }
 
 .hi-hat {
-  border: .2rem solid rgba(255, 15, 15, .85);
+  border: .2rem solid #db0202;
   background: rgba(255, 15, 15, .25);
-  box-shadow: 0 .4rem 0 rgba(255, 15, 15, .85);
+  box-shadow: 0 .4rem 0 #db0202;
 }
 
 .playing-hi-hat {
@@ -55,9 +55,9 @@ body {
 }
 
 .snare {
-  border: .2rem solid rgba(255, 128, 15, .85);
+  border: .2rem solid #db6f02;
   background: rgba(255, 128, 15, .25);
-  box-shadow: 0 .4rem 0 rgba(255, 128, 15, .85);
+  box-shadow: 0 .4rem 0 #db6f02;
 }
 
 .playing-snare {
@@ -66,9 +66,9 @@ body {
 }
 
 .kick {
-  border: .2rem solid rgba(255, 255, 15, .85);
+  border: .2rem solid #dbdb02;
   background: rgba(255, 255, 15, .25);
-  box-shadow: 0 .4rem 0 rgba(255, 255, 15, .85);
+  box-shadow: 0 .4rem 0 #dbdb02;
 }
 
 .playing-kick {
@@ -77,9 +77,9 @@ body {
 }
 
 .ride {
-  border: .2rem solid rgba(15, 255, 15, .85);
+  border: .2rem solid #02db02;
   background: rgba(15, 255, 15, .25);
-  box-shadow: 0 .4rem 0 rgba(15, 255, 15, .85);
+  box-shadow: 0 .4rem 0 #02db02;
 }
 
 .playing-ride {
@@ -88,9 +88,9 @@ body {
 }
 
 .accessory {
-  border: .2rem solid rgba(15, 128, 255, .85);
+  border: .2rem solid #026fdb;
   background: rgba(15, 128, 255, .25);
-  box-shadow: 0 .4rem 0 rgba(15, 128, 255, .85);
+  box-shadow: 0 .4rem 0 #026fdb;
 }
 
 .playing-accessory {
@@ -99,9 +99,9 @@ body {
 }
 
 .clap {
-  border: .2rem solid rgba(15, 15, 255, .85);
+  border: .2rem solid #0202db;
   background: rgba(15, 15, 255, .25);
-  box-shadow: 0 .4rem 0 rgba(15, 15, 255, .85);
+  box-shadow: 0 .4rem 0 #0202db;
 }
 
 .playing-clap {
@@ -114,7 +114,6 @@ body {
   flex-shrink: 0;
   flex-basis: 2.65rem; /* half of basis for regular keys */
   height: 8.4rem;
-  background: rgba(15, 15, 255, .15);
 }
 
 kbd {

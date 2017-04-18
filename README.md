@@ -19,3 +19,5 @@ To explore
 * [`classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) property's `remove` and `item` methods
 * [`keydown`](https://developer.mozilla.org/en-US/docs/Web/Events/keydown) and [`keyup`](https://developer.mozilla.org/en-US/docs/Web/Events/keyup)
 * [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+* sounds from [Freesound](http://freesound.org/) (see [audio sources](assets/sounds/README.md))
+* [GitHub Pages](https://pages.github.com/)

@@ -42,6 +42,7 @@ body {
   height: .6rem;
   top: 50%;
   background: black;
+  box-shadow: 0 0 .7rem rgba(0, 0, 0, .2);
   transform-origin: 100%; /* put the pivot point at the end instead of center */
   transform: rotate(90deg);
   transition: all 0.05s;

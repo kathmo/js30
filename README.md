@@ -18,4 +18,5 @@ To explore JavaScript
 * [```cubic-bezier```](https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function#The_cubic-bezier%28%29_class_of_timing-functions) to make a slight bounce on the tick of each clock hand
 * [```Date```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) to get the current time
 * [```getSeconds()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds), [```getMinutes()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes), and [```getHours()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours) (see the range of possible return of possible return values)
-* [```setInterval``` method](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) to call a function repeatedly, after a specified interval of time
+* [```setInterval``` method](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) to call a function repeatedly, after a specified time interval
+* [GitHub Pages](https://pages.github.com/)

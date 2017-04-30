@@ -1,0 +1,45 @@
+html {
+  background: #efdecd;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  padding: 1.5rem;
+  margin: auto;
+  border: 2.5rem solid white;
+  border-radius: 50%; /* turns a rectangle into an oval */
+  /* offset-x offset-y blur-radius spread-radius color */
+  box-shadow:
+    /* outer shadows */
+    0 0 0 .04rem rgba(0, 0, 0, .1),
+    0 0 .9rem rgba(0, 0, 0, .2),
+    /* inner shadows */
+    inset 0 0 0 .3rem #ebebeb,
+    inset 0 0 .9rem black;
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-.3rem); /* half the hands' height, to center them vertically */
+}
+
+.hand {
+  position: absolute;
+  width: 50%;
+  height: .6rem;
+  background: black;
+  top: 50%;
+}

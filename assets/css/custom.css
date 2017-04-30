@@ -42,6 +42,7 @@ body {
   width: 50%;
   height: 1rem;
   top: 50%;
+  border-radius: .6rem;
   background: #00101d;
   box-shadow: 0 0 .7rem rgba(0, 0, 0, .3);
   transform-origin: 100%; /* put the pivot point at the end instead of center */

@@ -1,6 +1,6 @@
 html {
-  background: #efdecd;
   font-family: sans-serif;
+  background: #efdecd;
 }
 
 body {
@@ -40,6 +40,10 @@ body {
   position: absolute;
   width: 50%;
   height: .6rem;
-  background: black;
   top: 50%;
+  background: black;
+  transform-origin: 100%; /* put the pivot point at the end instead of center */
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: (cubic-bezier(0.2, 3, 0.6, 1);
 }

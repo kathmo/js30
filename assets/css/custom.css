@@ -34,7 +34,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  transform: translateY(-.45rem); /* half the hands' height, to center them vertically */
+  transform: translateY(-.5rem); /* half the hands' height, to center them vertically */
 }
 
 .hand {

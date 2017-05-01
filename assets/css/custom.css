@@ -1,4 +1,12 @@
+/* variables */
 :root {
+  --bright: 100%;
+  --contrast: 100%;
+  --hue: 0;
+  --sat: 100%;
+  --invert: 0;
+  --grey: 0;
+  --sepia: 0;
   --blur: 0px;
   --frame: 5px;
   --color: #48d1cc;
@@ -30,7 +38,15 @@ input[name="color"] {
 }
 
 img {
-  filter: blur(var(--blur));
+  filter:
+    brightness(var(--bright))
+    contrast(var(--contrast))
+    hue-rotate(var(--hue))
+    saturate(var(--sat))
+    invert(var(--invert))
+    grayscale(var(--grey))
+    sepia(var(--sepia))
+    blur(var(--blur));
   padding: var(--frame);
   background: var(--color);
 }

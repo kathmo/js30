@@ -1,0 +1,36 @@
+:root {
+  --blur: 0px;
+  --frame: 5px;
+  --color: #48d1cc;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background: #1c1c1c;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.controls {
+  margin-bottom: 32px;
+}
+
+input {
+  width: 160px;
+  margin-right: 28px;
+}
+
+input[name="color"] {
+  width: 80px;
+}
+
+img {
+  filter: blur(var(--blur));
+  padding: var(--frame);
+  background: var(--color);
+}

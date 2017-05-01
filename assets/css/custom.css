@@ -1,9 +1,9 @@
 /* variables */
 :root {
-  --bright: 100%;
-  --contrast: 100%;
   --hue: 0;
   --sat: 100%;
+  --bright: 100%;
+  --contrast: 100%;
   --invert: 0;
   --grey: 0;
   --sepia: 0;
@@ -17,20 +17,34 @@ body {
   font-size: 20px;
   text-align: center;
   color: white;
+  margin-bottom: 80px;
   background: #1c1c1c;
 }
 
 h1 {
-  margin-bottom: 40px;
-}
-
-.controls {
   margin-bottom: 32px;
 }
 
+/* flex container */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 960px;
+  margin: auto;
+  margin-bottom: 36px;
+  text-align: left;
+}
+
+/* flex item */
+.control {
+  flex-basis: 320px;
+}
+
 input {
-  width: 160px;
-  margin-right: 28px;
+  width: 144px;
+  margin-left: 8px;
+  margin-bottom: 24px;
 }
 
 input[name="color"] {
@@ -39,10 +53,10 @@ input[name="color"] {
 
 img {
   filter:
-    brightness(var(--bright))
-    contrast(var(--contrast))
     hue-rotate(var(--hue))
     saturate(var(--sat))
+    brightness(var(--bright))
+    contrast(var(--contrast))
     invert(var(--invert))
     grayscale(var(--grey))
     sepia(var(--sepia))

@@ -15,38 +15,58 @@
     <h1>Image Effects</h1>
 
     <div class="controls">
-      <label for="bright">Brightness:</label>
-      <input name="bright" type="range" min="0" max="500" value="100" data-units="%">
+      <div class="control">
+        <label for="hue">Hue:</label>
+        <input name="hue" type="range" min="0" max="360" value="0" data-units="deg">
+      </div>
 
-      <label for="contrast">Contrast:</label>
-      <input name="contrast" type="range" min="0" max="500" value="100" data-units="%">
+      <div class="control">
+        <label for="contrast">Contrast:</label>
+        <input name="contrast" type="range" min="0" max="500" value="100" data-units="%">
+      </div>
 
-      <label for="hue">Hue:</label>
-      <input name="hue" type="range" min="0" max="360" value="0" data-units="deg">
+      <div class="control">
+        <label for="sepia">Sepia:</label>
+        <input name="sepia" type="range" min="0" max="100" value="0" data-units="%">
+      </div>
 
-      <label for="sat">Saturation:</label>
-      <input name="sat" type="range" min="0" max="500" value="100" data-units="%">
+      <div class="control">
+        <label for="sat">Saturation:</label>
+        <input name="sat" type="range" min="0" max="500" value="100" data-units="%">
+      </div>
 
-      <label for="invert">Inversion:</label>
-      <input name="invert" type="range" min="0" max="100" value="0" data-units="%">
+      <div class="control">
+        <label for="invert">Inversion:</label>
+        <input name="invert" type="range" min="0" max="100" value="0" data-units="%">
+      </div>
 
-      <label for="grey">Greyscale:</label>
-      <input name="grey" type="range" min="0" max="100" value="0" data-units="%">
+      <div class="control">
+        <label for="blur">Blur:</label>
+        <input name="blur" type="range" min="0" max="20" value="0" data-units="px">
+      </div>
 
-      <label for="sepia">Sepia:</label>
-      <input name="sepia" type="range" min="0" max="100" value="0" data-units="%">
+      <div class="control">
+        <label for="bright">Brightness:</label>
+        <input name="bright" type="range" min="0" max="500" value="100" data-units="%">
+      </div>
 
-      <label for="blur">Blur:</label>
-      <input name="blur" type="range" min="0" max="20" value="0" data-units="px">
+      <div class="control">
+        <label for="grey">Greyscale:</label>
+        <input name="grey" type="range" min="0" max="100" value="0" data-units="%">
+      </div>
 
-      <label for="frame">Frame:</label>
-      <input name="frame" type="range" min="5" max="150" value="5" data-units="px">
+      <div class="control">
+        <label for="frame">Frame:</label>
+        <input name="frame" type="range" min="5" max="120" value="5" data-units="px">
+      </div>
 
-      <label for="color">Frame Color:</label>
-      <input name="color" type="color" value="#48d1cc">
+      <div class="control">
+        <label for="color">Frame Color:</label>
+        <input name="color" type="color" value="#48d1cc">
+      </div>
     </div>
 
-    <img src="https://source.unsplash.com/F3uyey6ours/900x600">
+    <img src="https://source.unsplash.com/F3uyey6ours/960x640">
 
     <!-- scripts -->
     <script src="assets/js/script.js"></script>

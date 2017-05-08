@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Caveat', serif;
+  font-size: 24px;
+  text-align: center;
+  color: #fffffa;
+}
+
+body {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.panels {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.panel {
+  /* flex item properties */
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* flex box properties */
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  transition:
+    flex 0.4s,
+    font-size 0.4s,
+    background 0.4s;
+}
+
+.panel > * {
+  /* flex item properties */
+  flex: 1 0 auto;
+  /* flex box properties */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* other */
+  width: 100%;
+  margin: 0;
+  transition: transform 0.2s;
+}
+
+.panel p {
+  font-size: 2em;
+  text-shadow:
+    1px 1px 5px rgba(0, 0, 0, .7),
+    1px 1px 10px rgba(0, 0, 0, .45);
+}
+
+.panel p:nth-child(2) {
+  font-size: 4em;
+}
+
+/* start the top row of text off the screen (above) */
+.panel > *:first-child {
+  transform: translateY(-100%);
+}
+
+/* start the bottom row of text off the screen (below) */
+.panel > *:last-child {
+  transform: translateY(100%);
+}
+
+.panel.open {
+  flex: 5;
+  font-size: 48px;
+}
+
+.panel.open-text > *:first-child,
+.panel.open-text > *:last-child {
+  transform: translateY(0);
+}
+
+/* PANEL IMAGES */
+
+.panel-1 {
+  background-image: url(http://source.unsplash.com/4DDA43Gn1GY);
+  background-position: 52%;
+}
+
+.panel-2 {
+  background-image: url(https://source.unsplash.com/p3UCTiZIU6M);
+  background-position: 51%;
+}
+
+.panel-3 {
+  background-image: url(https://source.unsplash.com/LkHXBKpwhZ8);
+  background-position: 47%;
+}
+
+.panel-4 {
+  background-image: url(https://source.unsplash.com/1tFd-Bb1pxk);
+}
+
+.panel-5 {
+  background-image: url(https://source.unsplash.com/LxeMu7V0-mQ);
+  background-position: 64%;
+}

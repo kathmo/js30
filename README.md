@@ -15,7 +15,7 @@ To explore flexbox
 * [GitHub Pages](https://pages.github.com/)
 
 
-## Images
+### Images
 All photos found on [Unsplash](https://unsplash.com/) in [public domain](https://creativecommons.org/publicdomain/zero/1.0/).
 
 * [photo](https://unsplash.com/photos/4DDA43Gn1GY) by [erik cid](https://unsplash.com/@erik1994)

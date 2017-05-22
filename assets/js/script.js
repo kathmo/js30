@@ -23,17 +23,22 @@ function search(searchTerm, museums) {
 function displaySuggestions() {
     const suggArr = search(this.value, museums);
     const html = suggArr.map(museum => {
+        const regex = new RegExp(this.value, 'gi');
+        // highlight the part of the results that matches the search term
+        const museumName = museum[8].replace(regex,
+            `<span class="highlight">${this.value}</span>`);
+        // if the museum has a website, then link to it
         if (museum[11]) {
             return `
               <li>
-                <span class="name"><a href="${museum[11]}">${museum[8]}</a></span>
+                <span class="name"><a href="${museum[11]}">${museumName}</a></span>
                 <span class="number">${museum[10]}</span>
               </li>
             `;
         } else {
             return `
               <li>
-                <span class="name">${museum[8]}</span>
+                <span class="name">${museumName}</span>
                 <span class="number">${museum[10]}</span>
               </li>
             `;

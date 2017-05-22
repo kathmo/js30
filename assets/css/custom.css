@@ -71,3 +71,7 @@ a {
   max-width: 30%;
   padding-left: 24px;
 }
+
+.highlight {
+  background: #b4fee1;
+}

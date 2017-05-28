@@ -17,5 +17,5 @@ To explore JavaScript
 * NYC Open Data [New York City Museums data set downloadable as JSON](https://data.cityofnewyork.us/api/views/fn6f-htvy/rows.json?accessType=DOWNLOAD)
 * [```fetch()```](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch)
 * [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
-* [RawGit](https://rawgit.com/)
+* [RawGit](https://rawgit.com/) to serve data/nyc_museums.json
 * [GitHub Pages](https://pages.github.com/)

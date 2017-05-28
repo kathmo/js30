@@ -1,4 +1,4 @@
-const endpoint = 'https://rawgit.com/kathmo/autocomplete/master/assets/data/nyc_museums.json';
+const endpoint = 'https://cdn.rawgit.com/kathmo/search-suggest/0fd2e9dd/assets/data/nyc_museums.json';
 
 const museums = [];
 

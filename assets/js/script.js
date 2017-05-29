@@ -1,5 +1,6 @@
 const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
+const colorBtns = document.querySelectorAll('.color');
 
 // make the canvas as large as the window
 canvas.width = window.innerWidth;
@@ -26,6 +27,10 @@ function draw(e) {
     [lastX, lastY] = [e.offsetX, e.offsetY];
 }
 
+function setColor(e) {
+    ctx.strokeStyle = this.dataset.color;
+}
+
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mousedown', (e) => {
     isDrawing = true;
@@ -34,3 +39,4 @@ canvas.addEventListener('mousedown', (e) => {
 
 canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false);
+colorBtns.forEach(btn => btn.addEventListener('click', setColor));

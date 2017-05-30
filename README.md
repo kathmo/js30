@@ -6,8 +6,9 @@ Project live at [https://kathmo.github.io/search-suggest/](https://kathmo.github
 
 
 ## Why
-
-To explore JavaScript
+To explore
+* JavaScript
+* open data
 
 
 ## How

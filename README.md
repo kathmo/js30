@@ -15,3 +15,4 @@ To explore JavaScript
 * [```dataset``` property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset) to access ```data-*``` attributes
 * [```clearRect()```](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect) to clear the canvas
 * [```linear-gradient()```](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient) to color the rainbow button
+* [GitHub Pages](https://pages.github.com/)

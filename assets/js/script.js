@@ -61,7 +61,6 @@ canvas.addEventListener('mousedown', (e) => {
 canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false);
 
-
 // button events
 colorBtns.forEach(btn => btn.addEventListener('click', setColor));
 sizeBtns.forEach(btn => btn.addEventListener('click', setLineWidth));

@@ -7,26 +7,28 @@
     <meta name="description" content="Canvas">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,700">
     <link rel="stylesheet" href="assets/css/custom.css" />
   </head>
 
   <body>
 
-    <!-- buttons to select marker color -->
-    <button class="color" data-color="blue">Blue</button>
-    <button class="color" data-color="red">Red</button>
-    <button class="color" data-color="green">Green</button>
-    <button class="color" data-color="black">Black</button>
-    <button class="color" data-color="rainbow">Rainbow</button>
+    <div id="toolbar">
+      <!-- buttons to select marker color -->
+      <button id="blue" class="color" data-color="blue"></button>
+      <button id="black" class="color" data-color="black"></button>
+      <button id="red" class="color" data-color="red"></button>
+      <button id="rainbow" class="color" data-color="rainbow"></button>
 
-    <!-- buttons to select marker size -->
-    <button class="size" data-size="10">Small</button>
-    <button class="size" data-size="25">Medium</button>
-    <button class="size" data-size="50">Large</button>
+      <!-- buttons to select marker size -->
+      <button class="size" data-size="10"><div id="small" class="circle"></div></button>
+      <button class="size" data-size="25"><div id="medium" class="circle"></div></button>
+      <button class="size" data-size="50"><div id="large" class="circle"></div></button>
 
-    <!-- erase (draw with white) and clear canvas -->
-    <button class="color" data-color="white">Eraser</button>
-    <button id="clear">Clear</button>
+      <!-- buttons to erase or clear canvas -->
+      <button id="eraser" class="color" data-color="white">Eraser</button>
+      <button id="clear">Clear</button>
+    </div>
 
     <canvas id="canvas" width="800" height="800"></canvas>
 

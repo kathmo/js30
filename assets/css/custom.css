@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #252525;
+}
+
+body {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#toolbar {
+  padding: 8px;
+  background: #d4dcde;
+}
+
+button {
+  vertical-align: top;
+  font-size: 20px;
+  color: #252525;
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  margin: 8px;
+  background: #fafafa;
+}
+
+/* color buttons */
+
+#blue {
+  background: blue;
+}
+
+#black {
+  background: black;
+}
+
+#red {
+  background: red;
+}
+
+#rainbow {
+  background: linear-gradient(135deg, cyan, magenta, yellow);
+}
+
+/* line width buttons  */
+
+.circle {
+  border-radius: 50%;
+  margin: auto;
+  background: #505050;
+}
+
+#small {
+  width: 12px;
+  height: 12px;
+}
+
+#medium {
+  width: 24px;
+  height: 24px;
+}
+
+#large {
+  width: 36px;
+  height: 36px;
+}
+
+/* erasing and clearing */
+
+#eraser, #clear {
+  width: 104px;
+}
+
+#clear {
+  float: right;
+}

@@ -8,3 +8,4 @@ To explore JavaScript
 * [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to assign variables in a single line
 * [```dataset``` property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
 * [```clearRect()```](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect) to clear the canvas
+* [```linear-gradient()```](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)

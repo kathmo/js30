@@ -22,8 +22,9 @@ button {
   vertical-align: top;
   font-size: 20px;
   color: #252525;
-  width: 56px;
-  height: 56px;
+  width: 48px;
+  height: 48px;
+  padding: 0;
   border: none;
   border-radius: 8px;
   margin: 8px;
@@ -62,13 +63,13 @@ button {
 }
 
 #medium {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 #large {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
 }
 
 /* erasing and clearing */

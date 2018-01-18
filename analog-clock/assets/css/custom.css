@@ -1,0 +1,69 @@
+html {
+  font-family: sans-serif;
+  background: #fad6a5;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  width: 28rem;
+  height: 28rem;
+  padding: 1.5rem;
+  margin: auto;
+  border: 2.8rem solid #f8f8f8;
+  border-radius: 50%; /* turns a rectangle into an oval */
+  /* offset-x offset-y blur-radius spread-radius color */
+  background: #faebd7;
+  box-shadow:
+    /* outer shadows */
+    0 0 0 .04rem rgba(0, 0, 0, .1),
+    0 0 .9rem rgba(0, 0, 0, .2),
+    /* inner shadows */
+    inset 0 0 0 .3rem #ebebeb,
+    inset 0 0 .9rem black;
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-.5rem); /* half the hands' height, to center them vertically */
+}
+
+.hand {
+  position: absolute;
+  width: 50%;
+  height: 1rem;
+  top: 50%;
+  border-radius: .6rem;
+  background: #00101d;
+  box-shadow: 0 0 .7rem rgba(0, 0, 0, .3);
+  transform-origin: 100%; /* put the pivot point at the end instead of center */
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.2, 3, 0.6, 1);
+}
+
+#hour-hand {
+  width: 33%;
+  left: 17%;
+}
+
+#min-hand {
+  width: 45%;
+  height: .75rem;
+  left: 5%;
+  background: #004883;
+}
+
+#sec-hand {
+  height: .4rem;
+  background: #e8000d;
+}

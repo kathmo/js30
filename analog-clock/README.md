@@ -2,7 +2,7 @@
 
 An analog clock without numbers.
 
-Project live at [https://kathmo.github.io/analog-clock/](https://kathmo.github.io/analog-clock/)
+Project live at [https://kathmo.github.io/js30/analog-clock/](https://kathmo.github.io/js30/analog-clock/)
 
 
 ## Why

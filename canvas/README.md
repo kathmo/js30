@@ -1,7 +1,7 @@
 # canvas
 A blank canvas to draw on with some options for marker color and weight.
 
-Project live at [https://kathmo.github.io/canvas/](https://kathmo.github.io/canvas/)
+Project live at [https://kathmo.github.io/js30/canvas/](https://kathmo.github.io/js30/canvas/)
 
 ## Why
 To explore JavaScript

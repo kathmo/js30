@@ -2,7 +2,7 @@
 
 Playing with image filters and effects.
 
-Project live at [https://kathmo.github.io/image-effects/](https://kathmo.github.io/image-effects/)
+Project live at [https://kathmo.github.io/js30/image-effects/](https://kathmo.github.io/js30/image-effects/)
 
 
 ## Why

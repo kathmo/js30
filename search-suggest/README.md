@@ -2,7 +2,7 @@
 
 A searchable directory of museums in New York City using NYC Open Data. The directory filters to display search suggestions / results as you type.
 
-Project live at [https://kathmo.github.io/search-suggest/](https://kathmo.github.io/search-suggest/)
+Project live at [https://kathmo.github.io/js30/search-suggest/](https://kathmo.github.io/js30/search-suggest/)
 
 
 ## Why

@@ -1,7 +1,7 @@
 # flex-panel-gallery
 A gallery of panel images and accompanying text.
 
-Project live at [https://kathmo.github.io/flex-panel-gallery/](https://kathmo.github.io/flex-panel-gallery/)
+Project live at [https://kathmo.github.io/js30/flex-panel-gallery/](https://kathmo.github.io/js30/flex-panel-gallery/)
 
 ## Why
 To explore flexbox

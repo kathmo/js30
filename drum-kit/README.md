@@ -1,7 +1,7 @@
 # drum-kit
 A drum kit for the computer keyboard. Type on computer keyboard to play percussion sounds.
 
-Project live at [https://kathmo.github.io/drum-kit/](https://kathmo.github.io/drum-kit/)
+Project live at [https://kathmo.github.io/js30/drum-kit/](https://kathmo.github.io/js30/drum-kit/)
 
 ## Why
 
